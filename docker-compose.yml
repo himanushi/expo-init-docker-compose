@@ -6,6 +6,6 @@ services:
     volumes:
       - .:/music-client
     ports:
-      - "3333:3333"
+      - "19000-19010:19000-19010"
     tty: true
     stdin_open: true
